@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "872351146051",
+    "firebase_url": "https://yourstory-29fae.firebaseio.com",
+    "project_id": "yourstory-29fae",
+    "storage_bucket": "yourstory-29fae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872351146051:android:d53429c37f6ccad0a074f6",
+        "android_client_info": {
+          "package_name": "com.example.myannualbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872351146051-g5qblrvfhgrlcqi3u17mjqqt9a2hghqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myannualbook",
+            "certificate_hash": "930ba055285bafdd39ef235d8fe8369728da4f78"
+          }
+        },
+        {
+          "client_id": "872351146051-0gih3mcm7jbauka8spg3anisveosr3i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myannualbook",
+            "certificate_hash": "9302da1ea70a022398dce2b171eb048a2fe6792b"
+          }
+        },
+        {
+          "client_id": "872351146051-7darpktcgokp235c6dr4aeose0bfs17g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4aLfeNEd4q3PCgHuTtbDwIZUxICAAAyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872351146051-7darpktcgokp235c6dr4aeose0bfs17g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

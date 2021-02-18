@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyAnnualBook</string>
+    <string name="virtualAnnualBook">Virtual Annual Book Of</string>
+    <string name="freeze">Freeze Creative</string>
+    <string name="login">Login</string>
+    <string name="info">Silahkan Gunakan Akun Yang Telah Terdaftar</string>
+    <string name="namaSMA">SMA Negeri 16 Bandar Lampung</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="fullName">Nama</string>
+    <string name="username">Username</string>
+    <string name="go">Go</string>
+    <string name="teks">Pilih Kategori</string>
+    <string name="alamat">Alamat</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="line">Line</string>
+
+    <string name="user">Username</string>
+    <string name="hi">Hi,</string>
+
+    <string name="menu1">My Annual Book</string>
+    <string name="menu2">My Friends Profile</string>
+    <string name="menu3">My Annual Video</string>
+    <string name="menu4">My Teachers Profile</string>
+
+    <string name="input_error_name">Mohon Inputkan Nama</string>
+    <string name="input_error_email">Email Belum di Inputkan</string>
+    <string name="input_error_password">Password Belum di Inputkan</string>
+    <string name="input_error_password_length">Maaf, Password Minimal 6 Karakter</string>
+    <string name="input_error_photo_profile">Maaf, Inputkan Foto Profil</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">Email Tidak Valid, Mohon Cek Kembali</string>
+    <string-array name="kategori">
+        <item>Guru</item>
+        <item>Siswa</item>
+    </string-array>
+
+</resources>

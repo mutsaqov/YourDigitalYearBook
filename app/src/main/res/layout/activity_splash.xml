@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_16ssp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/textatas"
+            android:text="@string/virtualAnnualBook"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/mvboli"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/valioso"
+            android:id="@+id/val"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/text2020"
+            android:text="2020"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/mvboli"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_60sdp"
+            />
+
+        <TextView
+            android:id="@+id/by"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/brokenvessels"
+            android:textAlignment="center"
+            android:text="BY"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_25ssp" />
+
+
+        <TextView
+            android:id="@+id/freeze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mvboli"
+            android:textAlignment="center"
+            android:text="@string/freeze"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_20ssp" />
+        
+
+    </LinearLayout>
+
+</RelativeLayout>
