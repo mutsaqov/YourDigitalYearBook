@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher_register">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_600sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_backatas_login">
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_278sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="@dimen/_40sdp"
+        android:id="@+id/crd">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_guru"
+                    android:fontFamily="@font/mvboli"
+                    android:text="@string/register_teacher"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_26ssp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/register_guru"
+                    android:id="@+id/atas"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_guru"
+                        android:layout_width="@dimen/_140sdp"
+                        android:layout_height="@dimen/_140sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/profil_guru_icon"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/tambah_fotoGuru"
+                        android:layout_alignTop="@+id/profile_guru"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="@dimen/_minus17sdp"
+                        android:layout_marginTop="@dimen/_100sdp"
+                        android:layout_toEndOf="@id/profile_guru"
+                        android:src="@drawable/ic_plus"/>
+                </RelativeLayout>
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namaGuru"
+                    android:drawableStart="@drawable/ic_person"
+                    android:layout_below="@id/atas"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:inputType="textPersonName"
+                    android:hint="@string/fullName"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailGuru"
+                    android:drawableStart="@drawable/ic_email"
+                    android:layout_below="@id/namaGuru"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/email"
+                    android:autofillHints=""
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordGuru"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:layout_below="@id/emailGuru"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/password"
+                    android:autofillHints=""
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/WAGuru"
+                    android:drawableStart="@drawable/ic_wa"
+                    android:layout_below="@id/passwordGuru"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/whatsapp"
+                    android:autofillHints=""
+                    android:inputType="textLongMessage" />
+
+                <EditText
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapelGuru"
+                    android:drawableStart="@drawable/ic_mapel"
+                    android:layout_below="@id/WAGuru"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/password"
+                    android:autofillHints=""
+                    android:inputType="textLongMessage" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
