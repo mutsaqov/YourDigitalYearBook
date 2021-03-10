@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MyAnnualBook</string>
     <string name="virtualAnnualBook">Virtual Annual Book Of</string>
-    <string name="freeze">Freeze Creative</string>
+    <string name="creative">Creative</string>
+    <string name="freeze">Freeze</string>
     <string name="login">Login</string>
     <string name="info">Silahkan Gunakan Akun Yang Telah Terdaftar</string>
     <string name="namaSMA">SMA Negeri 16 Bandar Lampung</string>
@@ -17,11 +18,12 @@
     <string name="whatsapp">Whatsapp</string>
     <string name="line">Line</string>
     <string name="register_teacher">Teacher Register</string>
-
+    <string name="pelajaran">Pilih Mata Pelajaran</string>
+    <string name="mapelguru">Pilih Kategori Jabatan/Mapel</string>
 
     <string name="user">Username</string>
     <string name="hi">Hi,</string>
-
+    <string name="wellcome">Wellcome To Our Virtual Books</string>
     <string name="menu1">My Annual Book</string>
     <string name="menu2">My Friends Profile</string>
     <string name="menu3">My Annual Video</string>
@@ -37,6 +39,28 @@
     <string-array name="kategori">
         <item>Guru</item>
         <item>Siswa</item>
+    </string-array>
+    
+    <string-array name="MataPelajaran">
+        <item>Bahasa Indonesia</item>
+        <item>Matematika</item>
+        <item>Kimia</item>
+        <item>Fisika</item>
+        <item>Biologi</item>
+        <item>Bahasa Inggris</item>
+        <item>Agama</item>
+        <item>Ekonomi</item>
+        <item>Sejarah</item>
+        <item>Geografi</item>
+        <item>Sosiologi</item>
+        <item>Kewarganegaraan</item>
+        <item>Konseling</item>
+        <item>Penjaskes</item>
+        <item>Kesenian</item>
+        <item>Bahasa Daerah</item>
+        <item>Tata Usaha (Staff)</item>
+        <item>IT (Staff)</item>
+        <item>Satpam (Staff)</item>
     </string-array>
 
 </resources>

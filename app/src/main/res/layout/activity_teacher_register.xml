@@ -81,6 +81,7 @@
                     android:paddingEnd="@dimen/_10sdp"
                     android:inputType="textPersonName"
                     android:hint="@string/fullName"
+                    android:textSize="@dimen/_12ssp"
                     android:autofillHints="" />
 
                 <EditText
@@ -94,6 +95,7 @@
                     android:paddingStart="@dimen/_7sdp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:drawablePadding="@dimen/_10sdp"
+                    android:textSize="@dimen/_12ssp"
                     android:hint="@string/email"
                     android:autofillHints=""
                     android:inputType="textEmailAddress" />
@@ -109,39 +111,58 @@
                     android:paddingStart="@dimen/_7sdp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:drawablePadding="@dimen/_10sdp"
+                    android:textSize="@dimen/_12ssp"
                     android:hint="@string/password"
                     android:autofillHints=""
                     android:inputType="textPassword" />
+
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pilihMapel"
+                    android:layout_below="@id/passwordGuru"
+                    android:hint="@string/pelajaran"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/_12ssp"
+                    android:entries="@array/MataPelajaran"
+                    app:hintText="@string/mapelguru"
+                    />
 
                 <EditText
                     android:layout_width="@dimen/_240sdp"
                     android:layout_height="wrap_content"
                     android:id="@+id/WAGuru"
                     android:drawableStart="@drawable/ic_wa"
-                    android:layout_below="@id/passwordGuru"
+                    android:layout_below="@id/pilihMapel"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="@dimen/_20sdp"
                     android:paddingStart="@dimen/_7sdp"
                     android:paddingEnd="@dimen/_10sdp"
                     android:drawablePadding="@dimen/_10sdp"
+                    android:textSize="@dimen/_12ssp"
                     android:hint="@string/whatsapp"
                     android:autofillHints=""
                     android:inputType="textLongMessage" />
 
-                <EditText
-                    android:layout_width="@dimen/_240sdp"
+                <Button
+                    android:id="@+id/daftar"
+                    android:layout_width="@dimen/_186sdp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/mapelGuru"
-                    android:drawableStart="@drawable/ic_mapel"
-                    android:layout_below="@id/WAGuru"
+                    android:layout_below="@+id/WAGuru"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_30sdp"
+                    android:background="@drawable/rounded_button"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/go"
+                    android:textColor="@color/colorWhite"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:paddingStart="@dimen/_7sdp"
-                    android:paddingEnd="@dimen/_10sdp"
-                    android:drawablePadding="@dimen/_10sdp"
-                    android:hint="@string/password"
-                    android:autofillHints=""
-                    android:inputType="textLongMessage" />
+                    android:textSize="@dimen/_22ssp"
+                    android:textStyle="bold" />
+
 
             </RelativeLayout>
         </ScrollView>

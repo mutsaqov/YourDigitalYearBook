@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/book/baseline_book_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_drop_down/baseline_arrow_drop_down_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -34,7 +34,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="f6d634" />
-                            <entry key="outputName" value="ic_mapel" />
+                            <entry key="outputName" value="ic_drop" />
                             <entry key="sourceFile" value="F:\#Design\UIUX Android\Buku tahunan\assets\profil_icon.svg" />
                           </map>
                         </option>
